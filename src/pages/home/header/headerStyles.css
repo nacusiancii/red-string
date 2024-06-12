@@ -1,0 +1,46 @@
+.header {
+  padding: 4rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.header-content {
+  margin: 0 auto;
+  font-size: 1vw;
+  transform: translateY(-150%);
+  animation: headerAnimation 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) 3s
+    forwards;
+}
+
+@keyframes headerAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-150%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header-title {
+  font-size: calc(8px + 3.5em);
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: #ff0000;
+}
+
+.header-description {
+  font-size: calc(8px + 0.75em);
+  color: #555;
+  margin-bottom: 1.875rem;
+  max-width: 40em;
+}
+
+.header-buttons {
+  gap: 1em;
+}

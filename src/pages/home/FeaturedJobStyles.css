@@ -1,0 +1,12 @@
+.home-main {
+  width: 100%;
+  padding-right: 1.5rem;
+  gap: 1.3rem;
+}
+
+.featured-job-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+}

@@ -1,0 +1,63 @@
+/* JobRolesCarouselStyles.css */
+.job-roles-carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 6rem;
+  background-color: black;
+  color: white;
+}
+
+.job-roles-container {
+  display: flex;
+  animation: carouselAnimation 40s linear infinite;
+}
+
+.job-role {
+  flex: 0 0 350px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.job-role span {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.sparkle {
+  flex-grow: 0;
+  width: 2rem;
+  height: 2rem;
+  filter: invert(1);
+}
+
+.fade-left,
+.fade-right {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  pointer-events: none;
+}
+
+.fade-left {
+  left: 0;
+  background: linear-gradient(to right, black, transparent);
+}
+
+.fade-right {
+  right: 0;
+  background: linear-gradient(to left, black, transparent);
+}
+
+@keyframes carouselAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -1,3 +1,9 @@
+#Copyright (C) Red String - All Rights Reserved
+
+- Unauthorized copying of this file, via any medium is strictly prohibited
+- Proprietary and confidential
+- Written by Kurapati Murali Krishna <muralik2405@gmail.com>, June 2024
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

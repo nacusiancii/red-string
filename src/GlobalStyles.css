@@ -1,0 +1,64 @@
+:root {
+  --primary-color: black;
+  --secondary-color: white;
+  --text-color: rgb(28, 31, 41);
+  --teritriary-color: rgb(236, 237, 245);
+  --button-height: 2.5rem;
+  --button-border-radius: 0.5rem;
+  --card-border-radius: 1.5rem;
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", Satoshi, "Satoshi Placeholder", sans-serif;
+  background: rgb(249, 249, 251);
+}
+
+/* Utility Classes */
+.text-color {
+  color: var(--text-color);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+/* Specific Components */
+#redStringLogo {
+  height: 2.5rem;
+  width: 7.5rem;
+  background-size: 100% 100%;
+  background-image: url("assets/redString.svg");
+}

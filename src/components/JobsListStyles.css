@@ -1,0 +1,60 @@
+.job-card-list {
+  gap: 1rem;
+}
+
+.job-card {
+  padding: 1.5rem;
+  height: 15rem;
+  min-width: 25rem;
+  border-radius: var(--card-border-radius);
+  background: white;
+  box-shadow: 0 2px 1.5rem rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.job-card:hover {
+  box-shadow: 0 2px 1.75rem rgba(0, 0, 0, 0.1);
+}
+
+.job-body {
+  height: 9rem;
+}
+
+.job-icon {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+}
+
+.job-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 0 0.25rem;
+}
+
+.job-company {
+  font-size: 1rem;
+  color: #555555;
+  margin: 0;
+}
+
+.job-detail {
+  color: #555555;
+  margin-right: 0.5rem;
+}
+
+.job-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.job-tag {
+  background-color: #f0f0f0;
+  color: #555555;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}

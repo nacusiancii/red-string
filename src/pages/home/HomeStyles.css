@@ -1,0 +1,7 @@
+.home-container {
+  flex-wrap: nowrap;
+  align-items: start;
+  padding: 40px 40px 60px;
+  position: relative;
+  overflow: visible;
+}

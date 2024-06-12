@@ -1,0 +1,27 @@
+.aside-container {
+  padding: 60px 0 52px;
+  position: sticky;
+  top: 120px;
+}
+
+.post-job-card {
+  background-color: var(--teritriary-color);
+  gap: 1.5rem;
+  padding: 24px 24px 32px;
+  height: min-content;
+  width: 18rem;
+  border-radius: var(--card-border-radius);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0rem 0rem;
+}
+
+.card-description {
+  line-height: 1.5rem;
+  color: rgb(57, 63, 79);
+  letter-spacing: 0.01rem;
+  font-size: 0.9rem;
+}
