@@ -25,7 +25,6 @@ The project structure follows a modular and component-based approach. Here's an 
 src/
 ├── components/    # Contains reusable components
 ├── pages/         # Contains individual pages or views
-├── styles/        # Contains CSS files for styling
 ├── assets/        # Contains static assets (images, logos, etc.)
 ├── App.tsx        # Main component for routing and structure
 └── index.tsx      # Entry point of the application
