@@ -26,7 +26,7 @@ src/
 ├── components/    # Contains reusable components
 ├── pages/         # Contains individual pages or views
 ├── assets/        # Contains static assets (images, logos, etc.)
-├── App.tsx        # Main component for routing and structure
+├── AppRouter.tsx        # Main component for routing and structure
 └── index.tsx      # Entry point of the application
 ```
 
