@@ -61,9 +61,6 @@ To run the project locally, follow these steps:
 
 Contributions to Red String are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request. Make sure to follow the existing code style and conventions.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
